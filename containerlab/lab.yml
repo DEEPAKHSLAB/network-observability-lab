@@ -8,7 +8,7 @@ mgmt:
 topology:
   kinds:
     ceos:
-      image: ${CEOS_IMAGE:-ceos:image}
+      image: ceos:4.32.0F
   nodes:
     ceos-01:
       kind: ceos
